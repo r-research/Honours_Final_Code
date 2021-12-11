@@ -5,4 +5,4 @@ This repository is split into:
 2. Data preprocessing + filtering code
 3. Using Geograpy3
 
-## Thesis Title: Location extraction from Twitter text: A comparison of NLP and Machine Learning methods on Australian Natural Disaster Datasets
+Thesis Title: Location extraction from Twitter text: A comparison of NLP and Machine Learning methods on Australian Natural Disaster Datasets
