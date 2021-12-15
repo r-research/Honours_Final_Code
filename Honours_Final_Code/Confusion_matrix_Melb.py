@@ -5,9 +5,10 @@
 from sklearn.metrics import confusion_matrix
 import pandas as pd
 
-df_confm = pd.read_csv('Melb_F1_measure.csv')
-results = confusion_matrix(df_confm['Expected No'],df_confm['Predicted No'])
-# print(results)
+# df_confm = pd.read_csv('Melb_F1_measure.csv')
+df_confm = pd.read_csv('Melb Final 2.csv')
+results = confusion_matrix(df_confm['Expected 2'],df_confm['Predicted 2'])
+print(results)
 
 # Creating plot
 # Source: https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix
@@ -21,5 +22,5 @@ plt.figure(figsize = (10,7))
 sn.heatmap(df_cm, annot=True)
 plt.xlabel("Predicted Number of Locations")
 plt.ylabel("Expected Number of Locations")
-plt.savefig("Melbourne Confusion Matrix")
+plt.savefig("Melbourne Confusion Matrix Method 2 again")
 plt.show()
